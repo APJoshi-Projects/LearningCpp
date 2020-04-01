@@ -15,22 +15,21 @@ using namespace std;
 
 int main(int nNumbeofArgc, char* pazArgv[])
 {
-	int celcius;
+	float celcius;
 	cout << "Enter the temperature in celcius:";
 	cin >> celcius;
 	
-	int factor;
-	fctor = 212 - 32;
+	float factor;
+	factor = 212 - 32;
 	
-	int fahrenheit;
-	farnheit = factor * celcius/100 +32;
+	float fahrenheit;
+	fahrenheit = factor * celcius/100 + 32;
 	
 	cout << "Fahrenheit value is:";
-	cout << "fahrenheit" << endl;
+	cout << fahrenheit << endl;
 	
 	cout << "Press Enter to continue..." <<endl;
-	cin.ignre(10,'\n');
+	cin.ignore(10,'\n');
 	cin.get();
 	return 0;
 }
-

@@ -20,6 +20,7 @@ indent_mode=2
 [project]
 name=LearningCpp
 base_path=/home/pi/Downloads/Projects/LearningCpp
+description=
 
 [long line marker]
 long_line_behaviour=1
@@ -27,6 +28,7 @@ long_line_column=80
 
 [files]
 current_page=0
+FILE_NAME_0=460;C++;0;EUTF-8;1;1;1;D%3A%5CProjects%5CLearn%20C%2B%2B%5CLearningCpp%5CConversion.cpp;0;4
 
 [VTE]
 last_dir=/home/pi/Downloads/Projects/SmartSwitchUI
