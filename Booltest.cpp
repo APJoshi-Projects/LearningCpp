@@ -2,7 +2,7 @@
  * Copyright 2020 Ankur Joshi <ankurjoshi@outlook.com>
  * 
  * What.
- * Booltest.cpp (compare input and doo bool test) 
+ * Booltest.cpp (compare input and do bool test) 
  * 
  * Why.
  * Learning C++ 
@@ -38,5 +38,3 @@ int main (int nNumberofArgs, char* pszArgs[])
 	cin.get();
 	return 0;
 }
-
-	
