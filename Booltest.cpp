@@ -31,7 +31,7 @@ int main (int nNumberofArgs, char* pszArgs[])
 	cout << "This statement, " << nArg1
 	     << " equals "         << nArg2
 	     << " is "             << b
-	     << endl;
+			 << endl;
 	     
 	cout << "Press Enter to continue..." << endl;
 	cin.ignore(10, '\n');
