@@ -2,8 +2,10 @@
 using namespace std;
 int main()
 {
-	cout << "0173 = " << 0173 << endl;
-	cout << "0x7B = " << 0x7B << endl;
-	cout << "0x123 = " << 0x123 << endl;
+	int nArg1= 1;
+	int nArg2= 2;
+	int nArg3= 3;
+	bool b = (nArg1 > nArg2) && (nArg2++ > nArg3);
+	cout << b  << endl;
 	return 0;
 }

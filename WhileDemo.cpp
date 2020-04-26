@@ -2,29 +2,17 @@
 #include <cstdlib>
 #include <iostream>
 using namespace std;
-int main (int nNumbreofArgs, char* pszArgs[])
+
+int main()
 {
-	int nLoopCount;
-	cout << "Enter loop count: ";
-	cin >> nLoopCount;
-	
-	while (nLoopCount > 0)
-	{
-		nLoopCount = nLoopCount - 1;
-		cout << "Only " << nLoopCount 
-		     << " loops to go" << endl;
-	}
-	
-	cin.ignore();
-	cin.get();
-	nLoopCount=1000;
-	while (nLoopCount-- > 0)
-	{
-		nLoopCount = nLoopCount - 1;
-		cout << "Only " << nLoopCount 
-		     << " loops to go" << endl;
-	}
-	
-	cout << "Press Enter to continue..." << endl;
-	return 0;
+int nLoopCount;
+cout << "Enter loop count: ";
+cin >> nLoopCount;
+do {
+	--nLoopCount;
+	cout << "Only " << nLoopCount << " loops to go" << endl;
+}
+while (nLoopCount > 0);
+cin.get();
+return 0;
 }
