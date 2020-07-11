@@ -12,7 +12,7 @@ do {
 	--nLoopCount;
 	cout << "Only " << nLoopCount << " loops to go" << endl;
 }
-while (nLoopCount > 0);
+while (nLoopCount > 1);
 cin.get();
 return 0;
 }
