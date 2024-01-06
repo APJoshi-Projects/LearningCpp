@@ -17,7 +17,7 @@ int main(int nNumbreofArgs, char* pszArgs[])
 	int nArg1;
 	cout << "Enter arg1: ";
 	cin >> nArg1;
-	
+	/
 	int nArg2;
 	cout << "Enter arg2: ";
 	cin >> nArg2;
